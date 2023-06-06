@@ -1,0 +1,115 @@
+.boton1Estilo2 {
+  min-width: 130px;
+  height: 45px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 4px solid #f8b02a;
+  background: #ffa500;
+  font-family: "Sacramento", cursive;
+  font-size: 17px;
+}
+
+.boton1Estilo2:hover {
+  background: black;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+}
+
+
+
+  .boton2Estilo2 {
+    min-width: 130px;
+    height: 45px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 4px solid #f8b02a;
+    background: #ffa500;
+    font-family: "Sacramento", cursive;
+    font-size: 17px;
+}
+
+.boton2Estilo2:hover {
+  background: black;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+}
+
+
+
+  .boton3Estilo2 {
+    min-width: 130px;
+    height: 45px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 4px solid #f8b02a;
+    background: #ffa500;
+    font-family: "Sacramento", cursive;
+    font-size: 17px;
+  }
+ 
+.boton3Estilo2:hover {
+  background: black;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+}
+
+
+.fondoEstilo2 {
+    background-color: black;
+}
+
+.tituloEstilo2 {
+    font-size: 55px;
+  line-height: 100px;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+  border: 7px dotted #ffa500;
+	padding: 5px 10px;
+}
+
+.subtemaEstilo2 {
+  color:#f8b02a;
+  font-size: 25px;
+  font-family: "Sacramento", cursive;
+
+}
+
+.infoEstilo2 {
+  color: rgb(42, 250, 246);
+  font-size: 20px;
+  font-family: "Sacramento";
+}
+
+.imgEstilo2 {
+  border: 15px double #fff6a9;
+  padding: 10px;
+}

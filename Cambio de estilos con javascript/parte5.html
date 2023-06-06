@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="boton2.css">
+        <link rel="stylesheet" href="boton3.css">
+    </head>
+
+    <body id="fondo">
+       <div class="contenedor"><h1 id="titulo">Las redes sociales</h1></div>
+<button id="boton1"><div id="icon">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"/>
+      </svg>
+</div> <span>Estilo 1</span></button>
+
+<button id="boton2"><div id="icon2">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"/>
+      </svg>
+</div>
+    <span>Estilo 2</span></button>
+
+
+<button id="boton3"><div id="icon3">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"/>
+      </svg>
+</div>
+   <span>Estilo 3</span></button><br>
+<br>
+   <p id="subtema"><strong style="top: 30px;">¿Qué es una red social?</strong></p> <p id="info">Una red social es un término usado para describir una variedad de plataformas, aplicaciones y tecnologías que permiten a las personas interactuar socialmente con otros a través de la web. Algunos ejemplos de los sitios de medios sociales y aplicaciones pueden ser Facebook, YouTube, Twitter, Instagram, blogs y otros sitios que tienen contenido en función de la participación del usuario y el contenido generado por el usuario (UGC).
+
+    Los medios sociales se están convirtiendo en una parte integral de la vida online, según los sitios web y las aplicaciones sociales van proliferando. La mayoría de los medios de comunicación tradicionales en línea incluyen componentes sociales, tales como los campos de comentario para los usuarios. En los negocios, los medios sociales se utilizan para la comercialización de productos, la promoción de marcas, conectar con los clientes actuales y fomentar nuevos negocios.</p>
+<center>
+<img id="img" src="https://concepto.de/wp-content/uploads/2014/08/redes-sociales-1-e1551307320533.jpg" style="height: 400px; width: 650px; text-align: center;">
+</center>
+
+<script>
+    const boton1 = document.getElementById("boton1");
+    const boton2 = document.getElementById("boton2");
+    const boton3 = document.getElementById("boton3");
+    const titulo = document.getElementById("titulo");
+    const fondo = document.getElementById("fondo");
+    const icon = document.getElementById("icon");
+    const subtema = document.getElementById("subtema");
+    const info = document.getElementById("info");
+    const img = document.getElementById("img");
+
+
+    boton1.addEventListener('click', function() {
+        fondo.classList.remove('fondoEstilo2');
+        fondo.classList.remove('fondoEstilo3');
+        fondo.classList.add('fondoEstilo1');
+        titulo.classList.remove('tituloEstilo2');
+        titulo.classList.remove('tituloEstilo3');
+        titulo.classList.add('tituloEstilo1');
+        boton1.classList.remove('boton1Estilo2');
+        boton1.classList.remove('boton1Estilo3');
+        boton1.classList.add('boton1Estilo1');
+        boton2.classList.remove('boton2Estilo2');
+        boton2.classList.remove('boton2Estilo3');
+        boton2.classList.add('boton2Estilo1');
+        boton3.classList.remove('boton3Estilo2');
+        boton3.classList.remove('boton3Estilo3');
+        boton3.classList.add('boton3Estilo1');
+        subtema.classList.remove('subtemaEstilo2');
+        subtema.classList.remove('subtemaEstilo3');
+        info.classList.remove('infoEstilo2');
+        info.classList.remove('infoEstilo3');
+        subtema.classList.add('subtemaEstilo1');
+        info.classList.add('infoEstilo1');
+        img.classList.remove('imgEstilo2');
+        img.classList.remove('imgEstilo3');
+        img.classList.add('imgEstilo1');
+        icon.classList.remove('icono');
+        icon.style.display = "none";
+        document.getElementById("icon2").style.display = "none";
+        document.getElementById('icon3').style.display = "none";
+    });
+
+    boton2.addEventListener('click', function(){
+    fondo.classList.remove('fondoEstilo1');
+    fondo.classList.remove('fondoEstilo3');
+    fondo.classList.add('fondoEstilo2');
+    titulo.classList.remove('tituloEstilo1');
+    titulo.classList.remove('tituloEstilo3');
+    titulo.classList.add('tituloEstilo2');
+    boton1.classList.remove('boton1Estilo1');
+    boton1.classList.remove('boton1Estilo3');
+    boton1.classList.add('boton1Estilo2');
+    boton2.classList.remove('boton2Estilo1');
+    boton2.classList.remove('boton2Estilo3');
+    boton2.classList.add('boton2Estilo2');
+    boton3.classList.remove('boton3Estilo1');
+    boton3.classList.remove('boton3Estilo3');
+    boton3.classList.add('boton3Estilo2');
+        subtema.classList.remove('subtemaEstilo1');
+        subtema.classList.remove('subtemaEstilo3');
+        info.classList.remove('infoEstilo1');
+        info.classList.remove('infoEstilo3');
+        subtema.classList.add('subtemaEstilo2');
+        info.classList.add('infoEstilo2');
+        img.classList.remove('imgEstilo1');
+        img.classList.remove('imgEstilo3');
+        img.classList.add('imgEstilo2');
+    icon.style.display = "none";
+    document.getElementById("icon2").style.display = "none";
+    document.getElementById('icon3').style.display = "none";
+    });
+
+    boton3.addEventListener('click', function() {
+        fondo.classList.remove('fondoEstilo1');
+        fondo.classList.remove('fondoEstilo2');
+        fondo.classList.add('fondoEstilo3');
+        titulo.classList.remove('tituloEstilo1');
+        titulo.classList.remove('tituloEstilo2');
+        titulo.classList.add('tituloEstilo3');
+        boton1.classList.remove('boton1Estilo1');
+        boton1.classList.remove('boton1Estilo2');
+        boton1.classList.add('boton1Estilo3');
+        boton3.classList.remove('boton3Estilo1');
+        boton3.classList.remove('boton3Estilo2');
+        boton3.classList.add('boton3Estilo3');
+        boton2.classList.remove('boton2Estilo1');
+        boton2.classList.remove('boton2Estilo2');
+        boton2.classList.add('boton2Estilo3');
+        subtema.classList.remove('subtemaEstilo1');
+        subtema.classList.remove('subtemaEstilo2');
+        info.classList.remove('infoEstilo1');
+        info.classList.remove('infoEstilo2');
+        subtema.classList.add('subtemaEstilo3');
+        info.classList.add('infoEstilo3');
+        img.classList.remove('imgEstilo1');
+        img.classList.remove('imgEstilo2');
+        img.classList.add('imgEstilo3');
+        icon.classList.add('icono');
+        icon.style.display = "block";
+        document.getElementById("icon2").style.display = "block";
+        icon2.classList.add('icono');
+        document.getElementById("icon3").style.display = "block";
+        icon3.classList.add('icono');
+
+    })
+</script>
+    </body>
+</html>
+    

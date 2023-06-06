@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale01.0">
+        <link href="style.css" rel="stylesheet">
+        <title>Chat con firebase</title>
+    </head>
+    <body>
+        <div class="flex-container-row">
+            <div>
+                <h3>Chat utilizando Firebase</h3>
+            </div>
+            <div>
+                <img id="imagenLogo" src="https://umg.edu.gt/assets/umg.png">
+            </div>
+        </div>
+
+        <div class="flex-container-row">
+                <div>Estas conectado como:</div>
+        </div>
+
+        <div class="flex-container-row">
+           
+                <div id="usuarioConectado"><b>No conectado</b></div>
+        </div>
+
+        <div class="flex-container-row">
+            <button class="botonIniciar" id="botonIniciar">Iniciar sesion</button>
+            <button class="botonCerrar" id="botonCerrar" style="display:none">Cerrar sesion</button>
+        </div>
+    <div class="flex-container-row">
+        <div disabled id="mensajesChat">
+            Aca deben aparecer los mensajes
+        </div>
+    </div>
+    <div class="flex-container-row">
+        <input type="text" id="textomensaje" placeholder="Escribe tu mensaje y presiona Enter para enviar">
+    </div>
+    <footer id="identificacion">
+        <p>Leonel Estuardo Lemus Martinez  0907-23-1139</p>
+    </footer>
+
+         <script src="script.js" type="module"></script>
+    </body>
+</html>
